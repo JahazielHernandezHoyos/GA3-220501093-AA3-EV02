@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicios</title>
-</head>
-<body>
-  <button onclick="areaTriangulo()">1.Calcular el area de triangulo</button>
-  <button onclick="perimetroCirculo()">2.Calcular el perimetro de un circulo</button>
-  <button onclick="almacenDeEdades()">3.Almacen de edades</button>
-  <button onclick="mezclaDeVectores()">4.Mezcla de vectores</button>
-  <button onclick="encuestaDeMusica()">5.Encuesta de Musica</button>
-</body>
-<script src="Jahaziel_Anthony_Hernandez_Hoyos.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body>
+    <div class="flex justify-center m-20">
+      <div class="w-1/2">
+        <h1 class="text-center text-2xl font-bold underline decoration-sky-500">
+          Ejercicios actividad GA3-220501093-AA3-EV02!
+        </h1>
+      </div>
+    </div>
+    <!-- Base - Right -->
+    <div class="flex justify-center mx-14 px-80 grid grid-rows-4 gap-10">
+    <button
+      onclick="areaTriangulo()"
+      class="inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
+      href="/download"
+    >
+      1.Calcular el area de triangulo
+    </button>
+
+    <!-- Border - Right -->
+
+    <button
+      onclick="perimetroCirculo()"
+      class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-indigo-600 transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:text-indigo-500"
+      href="/download"
+    >
+      2.Calcular el perimetro de un circulo
+    </button>
+
+    <!-- Base - Left -->
+
+    <button
+      class="inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:-rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
+      href="/download"
+      onclick="almacenDeEdades()"
+    >
+      3.Almacen de edades
+    </button>
+
+    <!-- Border - Left -->
+
+    <button
+      class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-indigo-600 transition hover:-rotate-2 hover:scale-110 focus:outline-none focus:ring active:text-indigo-500"
+      href="/download"
+      onclick="mezclaDeVectores()"
+    >
+      4.Mezcla de vectores
+    </button>
+
+    <!-- Base - Right -->
+    <button
+      onclick="areaTriangulo()"
+      class="inline-block rounded bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-indigo-500"
+      href="/download"
+      onclick="encuestaDeMusica()"
+    >
+    5.Encuesta de Musica
+    </button>
+    </div>
+  </body>
+  <script src="Jahaziel_Anthony_Hernandez_Hoyos.js"></script>
 </html>
